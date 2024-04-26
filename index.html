@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByBike - Ride with Ease</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li id="logoBybike"><a href="#features"><img src="images/logo.png" alt="ByBike" width="150px"></a></li>
+                    <li class="menu-icon"><button onclick="toggleMenu()"><i class="fas fa-bars"></i></button></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section class="hero">
+        <div class="container">
+            <h2>Ride with Ease</h2>
+            <p>ByBike offers fast and affordable motorcycle rides wherever you need to go.</p>
+            <a href="#download" class="btn">Download Now</a>
+        </div>
+    </section> 
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose ByBike?</h2>
+            <div class="feature-box">
+                <div class="feature">
+                    <i class="fas fa-motorcycle"></i>
+                    <h3>Quick Rides</h3>
+                    <p>Get to your destination faster with our speedy motorcycle service.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Affordable</h3>
+                    <p>Enjoy competitive rates that won't break the bank.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Safe & Secure</h3>
+                    <p>Our drivers are trained professionals dedicated to your safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Startup Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/aya.jpg" alt="Team Member 1">
+                    <h3>Aya Oulhint</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/badr.png" alt="Team Member 2">
+                    <h3>Badreddine Ait El Khadir</h3>
+                    <p>COO | Full Stack Engineer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/nawal.jpg" alt="Team Member 2">
+                    <h3> Nawal Lamghari</h3>
+                    <p>CTO | Software Engineer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/nabil.png" alt="Team Member 2">
+                    <h3>Nabil Ouaamer</h3>
+                    <p>Data Analyst</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/yassine.png" alt="Team Member 2">
+                    <h3>Yassine Chalrhami</h3>
+                    <p>Software Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="download" class="download">
+        <!--<div class="advertisement">
+            <img src="images/e75a7766544539.5b195cf3c54e4.jpg" alt="First Advertisement" width="1400" height="933">
+        </div>-->
+        <div class="container">
+            <h2>Download the App</h2>
+            <p>Get ByBike on your smartphone and start riding today!</p>
+            <div class="download-buttons">
+                <a href="#" class="btn btn-apple"><img src="images/app_store.webp"></a> &nbsp;&nbsp;
+                <a href="#" class="btn btn-apple"><img src="images/play_market.webp"></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Have questions or feedback? Reach out to us!</p>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Campus Universiapolis Bab Al Madina, Quartier Tillila, Agadir 80000</li>
+                    <li><i class="fas fa-phone"></i> +212 7 03 32 51 89</li>
+                    <li><i class="fas fa-envelope"></i> bybike05@gmail.com</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <center><h2>Follow Us</h2></center>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/company/bybike-maroc/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bybike.maroc?igsh=M2VvbGdsamE3aDBj"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/bybike.maroc?igsh=M2VvbGdsamE3aDBj"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+        var navLinks = document.querySelectorAll('nav ul li:not(.menu-icon)');
+        navLinks.forEach(function(link) {
+            link.style.display = (link.style.display === 'none' || link.style.display === '') ? 'block' : 'none';
+        });
+        }
+    </script> 
+</body>
+</html>

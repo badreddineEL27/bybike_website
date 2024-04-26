@@ -1,0 +1,401 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+    #logoBybike {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logoBybike img {
+        width: 150px;
+    }
+    nav ul li:first-child {
+        margin-right: 0;
+    }
+
+    nav ul li img {
+        margin: 0 auto; 
+        align-items: center;
+    }
+
+    .hero {
+        padding: 50px 0; 
+    }
+
+    .hero h2 {
+        font-size: 28px; 
+    }
+
+    .hero p {
+        font-size: 16px; 
+    }
+
+    .features {
+        padding: 50px 0; 
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .feature-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        margin: 20px 0;
+        flex-basis: auto;
+    }
+
+    .team {
+        padding: 50px 0;
+    }
+
+    .team h2 {
+        font-size: 28px;
+    }
+
+    .team-members {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-member {
+        margin: 10px;
+        flex-basis: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-member h3 {
+        font-size: 20px;
+    }
+
+    .team-member p {
+        font-size: 14px;
+    }
+
+    .download {
+        padding: 50px 0;
+    }
+
+    .download h2 {
+        font-size: 28px;
+    }
+
+    .download p {
+        font-size: 16px;
+    }
+
+    .contact-info ul li {
+        font-size: 14px;
+    }
+
+    .social-links .icons {
+        font-size: 20px;
+    }
+    @media (max-width: 768px) {
+        .download-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+    
+        .download-buttons .btn {
+            padding: 10px 16px;
+            font-size: 12px;
+        }
+    }
+     .menu-icon {
+        display: block;
+    }
+
+    nav ul li:not(.menu-icon) {
+        display: none;
+    }
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:first-child {
+    margin-right: auto; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #307b4f;
+}
+
+.hero {
+    background-image: url('images/e9bcc966507955.5b1838b3cb4e2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3ea168;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #307b4f;
+}
+
+.features {
+    background-color: #f5f5f5; 
+    padding: 80px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.download {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.download h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.download p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-apple {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-google {
+    background-color: #fff;
+    color: #000;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.social-links .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links .icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 20px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .feature {
+        margin: 0 10px;
+    }
+
+    .download-buttons {
+        flex-direction: column;
+    }
+
+    .btn-apple,
+    .btn-google {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer .container {
+        text-align: center;
+    }
+}
+
+.team {
+    background-color: #e0e0e0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 0 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #888;
+}
+
+.advertisement {
+    text-align: center;
+}
+
+.advertisement img {
+    max-width: 100%;
+}
+.download-buttons .btn:hover {
+    background-color: #000000; 
+}
+.menu-icon {
+    display: none;
+}
